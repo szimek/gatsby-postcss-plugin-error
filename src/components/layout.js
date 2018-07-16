@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
 
 import Header from './header'
+import styles from './layout.module.css';
 import './layout.css'
 
 const Layout = ({ children, data }) => (
@@ -28,6 +29,7 @@ const Layout = ({ children, data }) => (
         />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
+          className={styles.layout}
           style={{
             margin: '0 auto',
             maxWidth: 960,

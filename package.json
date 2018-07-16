@@ -21,6 +21,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@babel/runtime": "^7.0.0-beta.54",
+    "postcss-loader": "^2.1.6",
     "prettier": "^1.12.0"
   },
   "repository": {
